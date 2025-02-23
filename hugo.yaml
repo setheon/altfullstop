@@ -2,7 +2,7 @@
 # titles is stripped to only contain unicode range U+0000-007F
 
 baseURL: https://altfullstop.co/
-title: Coming Soon...
+title: alt.
 author: altfullstop
 language: en-GB
 paginate: 10
