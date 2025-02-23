@@ -32,6 +32,7 @@ params:
     themeColor: "#040404"
     logo: "logo.png"
 
+
   # Icons shown below the about text snippet
   # List of the available icons can be found in the /layouts/partials/svg.html file
   socialIcons:
