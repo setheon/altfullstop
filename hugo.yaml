@@ -1,0 +1,55 @@
+# Note that due to performance reasons the custom webfont used in the site's
+# titles is stripped to only contain unicode range U+0000-007F
+
+baseURL: https://altfullstop.co/
+title: Coming Soon...
+author: altfullstop
+language: en-GB
+paginate: 10
+
+theme: yuan
+
+params:
+  description: Example description
+
+  # Mouse tracking animation
+  enableMouseTracker: false
+
+  # Trunaction limit of summaries inside projects display containers
+  truncationLimit: 150
+
+  # Logos, favicons, and theme colors
+  assets:
+    favicon: "logo.ico"
+    favicon16: "logo.png"
+    favicon32: "logo.png"
+    appleTouchIcon: "logo.png"
+    safariPinnedTabIcon: "logo.png"
+    safariPinnedTabColor: "#5bbad5"
+    manifest: "manifest.json"
+    msTileColor: "#2b5797"
+    msTileIcon: "logo.png"
+    themeColor: "#040404"
+    logo: "logo.png"
+
+  # Icons shown below the about text snippet
+  # List of the available icons can be found in the /layouts/partials/svg.html file
+  socialIcons:
+    - name: email
+      url: "mailto:hello@altfullstop.co"
+      display: "Email us: hello@altfullstop.co"
+    - name: instagram
+      url: "https://instagram.com/altfullstop"
+      display: "@altfullstop on Instagram"
+    - name: youtube
+      url: "https://www.youtube.com/@altfullstop"
+      display: "@altfullstop on YouTube"
+    - name: linkedin
+      url: "https://www.linkedin.com/company/altfullstop/"
+      display: "@altfullstop on LinkedIn"
+
+  # List of displayed items (e.g. software projects)
+  itemDisplays:
+    - name: Example project
+      url: "#"
+      description: Project description example
